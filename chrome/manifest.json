@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "MemeNav",
+  "version": "1.0",
+  "content_security_policy": "script-src 'self' http://localhost:49152; object-src 'self'",
+
+  "browser_action": {
+    "default_title": "MemeNav"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://*.reddit.com/"
+  ],
+
+  "web_accessible_resources": [
+    "app/*"
+  ]
+}

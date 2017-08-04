@@ -1,0 +1,40 @@
+/* styles for memenav/components/comment-list/styles.css */
+._body_br7anp {
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+
+/* styles for memenav/components/post-comments/styles.css */
+._post-comments_ycw9a4 {
+}
+
+._title_ycw9a4 {
+  font-size: 2em;
+}
+
+/* styles for memenav/components/post-list-item/styles.css */
+._post-list-item_11hywt {
+  border-bottom: 1px solid gray;
+  border-left: 3px solid transparent;
+  outline: none;
+}
+
+._post-list-item_11hywt:focus {
+  border-left-color: blue
+}
+
+._score_11hywt {
+  font-size: 2em;
+}
+
+/* styles for memenav/components/post-list/styles.css */
+._post-list_ijl37i {
+}
+
+/* styles for memenav/styles/app.css */
+body {
+  margin: 0;
+  background: white;
+}
